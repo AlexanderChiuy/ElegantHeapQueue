@@ -8,5 +8,6 @@ setup(
     name='Elegant Heap Queue',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/AlexanderChiuy/HeapQueue'
+    url='https://github.com/AlexanderChiuy/HeapQueue',
+    py_modules=[]
 )
