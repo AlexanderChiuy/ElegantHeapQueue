@@ -1,10 +1,11 @@
+import heapq
+import functools
 from enum import Enum, auto
 from typing import TypeVar, Generic, Callable, Optional
 from collections.abc import Iterable
-from comparable import ComparableT
-import heapq
-import functools
+from HeapQueue.comparable import ComparableT
 
+__all__ = ['HeapType', 'HeapQueue']
 
 class HeapType(Enum):
     """
