@@ -38,5 +38,5 @@ jobs:
     - name: Test with pytest
       run: |
         cd tests
-        export PYTHONPATH="../HeapQueue"
+        export PYTHONPATH=".."
         pytest Implementation_Tests.py
