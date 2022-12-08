@@ -3,7 +3,7 @@ import pytest
 import sys
  
 # adding path to correct library
-sys.path.insert(0, '../')
+sys.path.insert(0, '../src')
 
 
 '''
