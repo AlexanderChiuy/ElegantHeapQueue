@@ -1,4 +1,4 @@
-# Elegant Heap Queue v1.0.0 #
+# Elegant Heap Queue #
 
 At last a better and more elegant Heap Queue library for Python! We developed this library as a result of our interactions with established Python PriorityQueue and heapq libraries through Carnegie Mellon computing courses and Leetcode grinding. Explicitly, we noticed that the Python standard libraries, while useful and implementing correct heap behavior, do not allow for expressive code. They have limitations which lead to potentially opaque and difficult to maintain code, using several "hacks" to achieve what is normal in other languages like Java. To understand better our pain points, consider a classic Leetcode question--Median Finder. Below shows an implementation that uses the heapq Python standard library...
 
@@ -136,10 +136,16 @@ Similar real world examples where this would be useful can involve load balancin
 With a standard Python installation, to install do: 
 
 ```
-pip install HeapQueue
+pip install elegant-heap-queue
 ```
 
-It's also possible to use the library files uploaded to the PyPI [website]() directly in your projects.
+then import like so:
+
+```python
+from elegant_heap_queue import * # HeapQueue and HeapType class imported
+```
+
+It's also possible to use the library files uploaded to the PyPI [website](https://pypi.org/project/elegant-heap-queue/) directly in your projects.
 
 ## Getting Started with Elegant Priority Queue ##
 
@@ -163,9 +169,6 @@ arguments that help elevate the usefulness of this library:
 | `pop`           | Returns and removes the highest priority item         | `heap.pop()` |
 | `pop_k`         | Returns and removes the *k* highest priority items    | `heap.pop_k(2)` |
 | `as_sorted_list`| Returns all items in the HeapQueue as a sorted list based on priority | `for item in heap.as_sorted_list(): ...` |
-
-### Miscellaneous ###
-TODO: theory ([overview](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/), [heapq notes](https://docs.python.org/3/library/heapq.html#theory), [In-Depth CMU Lecture Notes](https://www.cs.cmu.edu/~15122/handouts/17-pq.pdf)), etc.... 
 
 ## License ##
 MIT
