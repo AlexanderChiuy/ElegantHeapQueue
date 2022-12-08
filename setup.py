@@ -5,11 +5,10 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name='HeapQueue',
-    version='0.0.2',
+    name='elegant-heap-queue',
+    version='0.0.0',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/AlexanderChiuy/HeapQueue',
-    py_modules=[],
-    packages=["HeapQueue"]
+    packages=["elegant_heap_queue"]
 )

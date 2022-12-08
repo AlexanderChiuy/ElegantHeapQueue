@@ -1,4 +1,4 @@
-from HeapQueue import HeapQueue, HeapType
+from elegant_heap_queue import HeapQueue, HeapType
 import pytest
 import sys
  

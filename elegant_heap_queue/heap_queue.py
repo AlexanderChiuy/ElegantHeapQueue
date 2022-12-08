@@ -3,7 +3,7 @@ import functools
 from enum import Enum, auto
 from typing import TypeVar, Generic, Callable, Optional
 from collections.abc import Iterable
-from HeapQueue.comparable import ComparableT
+from elegant_heap_queue.comparable import ComparableT
 
 __all__ = ['HeapType', 'HeapQueue']
 
