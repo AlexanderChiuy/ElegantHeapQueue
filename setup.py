@@ -9,6 +9,6 @@ setup(
     version='0.0.0',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/AlexanderChiuy/HeapQueue',
+    url='https://github.com/AlexanderChiuy/ElegantHeapQueue',
     packages=["elegant_heap_queue"]
 )
